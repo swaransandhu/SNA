@@ -1,0 +1,35 @@
+CODEBUCH,
+"Im Codebuch definieren Sie, wie und nach welchen Kriterien erfasst werden.",
+Achtung: das Codebuch wird immer als eigene Datei in Github gesetzt. Beispiel siehe hier.,
+Wert,Kommentar
+edgelist,Grundregel: Die Edgelist darf pro Spalte immer nur einen Wert enthalten. Bis auf die ID idealerweise numerisch codiert (als Zahl).
+from,"definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, nur ein Wort"
+to ,"definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, etc. "
+weight,"Ausprägung der Kantenstärke (Beziehungsstärke), definiert nach Häufigkeit des Kontaktes (1= seltener als einmal im Monat, 2=mindestens einmal im Monat, 3=mindestens einmal pro Woche, 4=jeden Tag)"
+relationship,definiert die Art der Beziehung bei multiplexen Netzwerken mit verschiedenen Beziehungsarten
+time,"definiert einen Zeitraum, seitdem die Beziehung zwischen zwei Knoten existiert (1=weniger als drei Jahre, 2=drei bis sechs Jahre, 3=mehr als sechs Jahre)"
+nodelist,Grundregel: die IDs der Nodelist müssen mit den IDs der Edgelist komplett übereinstimmen. Ausprägungen der Attribute in der Regel numerisch definieren.
+id,"eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  "
+name,Name oder Bezeichnung des Knotens. 
+sex,dichotome Ausprägung: male oder female. Einfacher auch numerisch als 1 oder 2 zu kodieren.
+nationality,Nationalität unf Herkunft des Namens
+age,Alter der Person
+education,Höchster Bildungsabschluss (Ausbildung ist kein Bildungsabschluss)
+religion,religiöse Präferenz
+,
+NA,"definiert fehlende Werte, bei der Datenerhebung das Feld einfach weglassen."
+,
+Bearbeitungshinweise,
+"Achten Sie bitte auf die Kommentare in den Spalten. Diese erklären genauer, welche Daten erfasst werden. ",
+"Sie sehen die Kommentare, wenn Sie auf die entsprechende Spalte gehen. ",
+"Skizzieren Sie zunächst Ihr Netzwerk bzw. die Daten, die für Sie relevant sind. ",
+Welche Informationen wollen Sie erheben? Wie müssen diese erfasst sein?,
+"Legen Sie bitte im Codebuch möglichst genau fest, wie die Daten erhoben werden (Codebuch)",
+"Bitte verwenden Sie keine Sonderzeichen in der Erfassung, dazu gehören Satzzeichen, Umlaute, etc.",
+"Verpflichten Sie alle Teammitglieder darauf, das Codebuch zwingend einzuhalten. ",
+Wer seine Daten nicht sauber erstellt muss diese nachbereinigen.,
+"Dokumentieren Sie jeden Schritt Ihrer Datenerfassung mit, um dies zu rekonstruieren.",
+Nutzen Sie das Skript zur Datenbereinigung auf dem letzten Reiter!,
+"Beispiel für die Dokumentation von Codebuch, Edge- und Nodelist",
+https://github.com/hdm-crpr/226305/tree/master/data/crpr2,
+Vergeben Sie stets eindeutige Spaltenbeschriftungen. Am besten immer nur ein Begriff ohne Sonderzeichen etc.,
