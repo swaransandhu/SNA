@@ -1,0 +1,83 @@
+---
+title: "Codebuch"
+author: "Corinna Pretzer"
+date: "16.07.2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+__CODEBUCH__										
+		
+Codierungsregeln:
+-   Bis auf die Namen werden alle Daten numerisch erhoben.
+-   Es werden keine Sonderzeichen verwendet.
+-   Fehlende Werte z.B. bei Alter des Vereins bleiben leer. 
+
+__Edge-Attribute__											
+from	
+definiert den Sender in gerichteten Netzwerken. 
+Entspricht ID in der Nodelist										
+
+to 	
+definiert den Empfänger in ungerichteten Netzwerken. 
+Entspricht ID in der Nodelist.										
+
+relation
+definiert die Art der Beziehung
+1=zwischen Spielerin und Verein
+2=zwischen Spielerin und Land
+											
+__Node-Attribute__											
+id	
+eindeutige Identifikation jedes einzelnen Knotens; 
+ein Wort; 
+keine Sonderzeichen	
+Initalien, IOC-Ländercodes, Vereinskürzeln
+
+name	
+vollständiger Namen des Akteurs										
+
+type 
+1=Person
+2=Organisation, wie Verein oder Land
+
+birth
+Geburtsjahr
+
+age
+Alter in passenden Abschnitten skaliert 
+1=unter 18
+2=19-20
+3=21-25
+4=25-30
+5= über 30
+
+position
+Spielposition auf dem Feld
+1=Mittelblock
+2=Zuspiel
+3=Außenangriff
+4=Diagonal
+5=Libera
+
+countrytype
+Heimatland
+1=BEL
+2=BUL
+3=GER
+4=FIN
+5=NLD
+6=POL
+7=ESP
+8=USA
+
+time
+Zeitpunkt ab dem die Spielerin im Verein spielen, seit 
+1=2018
+2=2019
+3=2020
+4=2021
+											
