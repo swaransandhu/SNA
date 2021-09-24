@@ -1,0 +1,11 @@
+from,to,relationship
+TP,HM,3
+JKB,JBS,3
+VB,MS,3
+CS,MB,3
+CS,MB,4
+HM,TP,3
+JBS,JKB,3
+MS,VB,3
+MB,CS,3
+MB,CS,4
