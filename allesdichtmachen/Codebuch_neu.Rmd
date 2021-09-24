@@ -1,0 +1,101 @@
+---
+title: "Codebuch"
+author: "SNA7"
+date: "24 09 2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+__CODEBUCH__										
+Erhebungszeitraum: seit 2000
+		
+Codierungsregeln:
+-   Bis auf die Namen werden alle Daten numerisch erhoben.
+-   Es werden keine Sonderzeichen verwendet.
+-   Es werden keine Umlaute verwendet (z.B. ü=ue)
+-   Die ID für die Edgelist besteht aus den Initialen der Akteure
+
+__Edge-Attribute__											
+from	
+definiert den Sender in gerichteten Netzwerken. 
+Entspricht ID in der Nodelist										
+
+to 	
+definiert den Empfänger in ungerichteten Netzwerken. 
+Entspricht ID in der Nodelist.										
+
+weight
+Ausprägung der Kantenstärke (Beziehungsstärke), 
+1 = schwach
+2 = mittel
+3 = stark
+
+relationship	
+definiert die Art der Beziehung; 
+1 = Zusammenarbeit in Filmen/Serien 
+2 = gemeinsame agentur 
+3 = private Freundschaft/Verwandtschaft 
+4 = gemeinsames Video										
+											
+__Node-Attribute__											
+id	
+eindeutige Identifikation jedes einzelnen Knotens; 
+ein Wort; 
+keine Sonderzeichen										
+
+name	
+vollständiger Namen des Akteurs										
+
+sex	
+1 = male 
+2 = female
+
+type
+1 = Person
+2 = Film/Serie/Theater
+3 = Agentur 
+4 = Projekt/Sonstiges
+
+job title	
+1 = Schauspieler:in 
+2 = Regisseur:in 
+3 = beides
+
+films	
+definiert die Bekanntheit der Akteure, gemessen an der Anzahl der gespielten Filme/Serien						
+1 = 0-20 
+2 = 21-35 
+3 = 36-49
+4 = 50-99
+5 = über 100
+
+
+video	
+Ist der Beitrag zu #allesdichtmachen des Akteurs noch offline oder wurde zurückgezogen.
+Stand: 13.09.2021 
+1 = online
+2 = offline		
+
+range	
+definiert die Reichweite der Akteure, bezogen auf die Aufrufe ihres YouTube-Beitrags zu #allesdichtmachen	
+Stand: 13.09.2021 
+1 = <100.000 
+2 = 100.000-300.000
+3 = 300.001-500.000
+4 = >500.000				
+
+home
+aktueller Wohnort des Akteurs
+1 = Berlin
+2 = Hamburg
+3 = Wien
+4 = München
+5 = Stuttgart
+6 = Potsdam
+7 = Recklinghausen
+8 = Luxemburg
+9 = Köln
+											
