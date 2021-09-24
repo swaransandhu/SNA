@@ -1,0 +1,57 @@
+ID,name,sex,type ,job title,films,video,range,home
+AM,Alexandra Marinescu,2,1,1,1,2,,1
+BM,Ben Muenchnow,1,1,1,2,2,,1
+BG,Bernd Gnann,1,1,1,1,1,3,5
+CAG,Cem Ali Gueltekin,1,1,1,4,1,4,2
+CE,Christian Ehrich,1,1,1,2,2,,1
+CS,Christine Sommer ,2,1,1,4,1,2,3
+CR,Claudia Rippe,2,1,1,1,1,2,1
+FK,Felix Klare ,1,1,1,4,1,2,4
+DB,Dietrich Brueggemann,1,1,3,3,1,2,1
+JB,Joseph Konrad Bundschuh,1,1,1,3,2,,1
+KT,Karoline Teska,2,1,1,4,1,2,1
+KS,Katharina Schlothauer,2,1,1,3,2,,1
+KO,Kathrin Osterode,2,1,1,2,2,,1
+KK,Kea Koenneker,2,1,1,1,1,2,1
+KD,Ken Duken,1,1,1,4,2,,1
+KU,Kostja Ullmann,1,1,1,4,2,,2
+MR,Manuel Rubey,1,1,1,4,2,,3
+NO,Nicholas Ofczarek,1,1,1,4,2,,1
+NG,Nina Gummich,2,1,1,3,1,4,6
+NP,Nina Proll,2,1,1,4,1,3,3
+PA,Pasquale Aleardi,1,1,1,4,2,,1
+PB,Peri Baumeister,2,1,1,2,2,,1
+RY,Ramin Yazdani,1,1,3,4,1,2,2
+RM,Richy Müller,1,1,1,3,2,,
+RD,Roland Dueringer,1,1,1,2,1,2,
+SA,Samia Dauenhauer,2,1,1,1,2,,1
+MG,Markus Glaeser,1,1,1,2,2,,1
+MB,Martin Brambach,1,1,1,5,2,,7
+MM,Maxim Mehmet,1,1,1,4,1,3,1
+MBE,Meret Becker,2,1,1,3,2,,1
+MS,Miriam Stein,2,1,1,2,1,3,1
+MAW,Monika Anna Wojtyllo,2,1,3,4,1,2,1
+ND,Nadine Dubois,2,1,1,2,2,,1
+NU,Nadja Uhl,2,1,1,4,1,3,6
+TM,Thorsten Merten,1,1,1,5,2,,1
+TMA,Tina Maria Aigner,2,1,1,1,1,3,1
+TP,Trystan Puetter,1,1,1,3,2,,1
+UT,Ulrich Tukur,1,1,1,4,1,4,1
+UF,Ulrike Folkerts,2,1,1,4,2,,1
+VK,Vicky Krieps,2,1,1,3,1,2,8
+VB,Volker Bruch,1,1,1,4,1,4,1
+WE,Werner Eng,1,1,1,1,1,2,1
+WWM,Wotan Wilke Moehring,1,1,1,5,1,3,9
+GVB,Gianna Valentina Bauer,2,1,1,3,1,2,4
+HZ,Hanns Zischler,1,1,1,5,1,3,1
+HM,Heike Makatsch,2,1,1,3,2,,1
+IF,Inka Friedrich,2,1,1,5,2,,1
+JJL,Jan Josef Liefers,1,1,3,5,1,4,1
+JP,Jeana Paraschiva,2,1,2,1,1,2,
+JW,Jens Wawrczeck,1,1,3,1,2,,
+JBS,Joerg Bundschuh,1,1,3,2,2,,1
+JB,Jose Barros,1,1,1,1,2,,2
+A,Drei Zimmer/Küche/Bad,,2,,,,,
+B,A Most Wanted Man,,2,,,,,
+C,Add a friend,,2,,,,,
+D,Alki Alki,,2,,,,,
